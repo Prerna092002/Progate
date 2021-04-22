@@ -1,0 +1,225 @@
+body{
+	margin:0px;
+}
+
+#header{
+	background-color:#ff0000c4;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+        
+
+}
+
+#logo-img{
+	float: left;
+	height: 50px;
+	width: 170px;
+}
+
+#header-ul{
+	display: inline;
+	margin-left: -35px;    
+}
+
+.dropbtn {
+	margin: 12px 0px 1px 45px;
+        background-color: inherit;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        
+}
+
+.dropdown {
+	list-style: none;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.dropdown-content {
+	border-bottom-left-radius: 8%;
+	border-bottom-right-radius: 8%;
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 95px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+	text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {
+	color: #EDF7F6;
+}
+
+#joinus{
+	display: inline;
+	float: right;
+	padding-right: 20px;
+}
+
+
+#Img{
+	margin: 50px 0;
+	height: 600px;
+	width: 100%;
+}
+
+#price{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+h1{
+	color: red;
+	text-align: center;
+	font-size: 32px;
+}
+
+#gift{
+	display: inline;
+}
+
+.Gift-img{
+	width: 250px;
+	height: 250px;
+	margin: 0 15px;
+	cursor: pointer;
+}
+
+#solution{
+	padding: 30px;
+
+}
+
+.sol-para-head{
+	color: red;
+}
+
+
+
+.sol{
+    font-size: 18px;
+}
+
+footer{
+	background-color: grey;
+}
+
+#contact{
+	display:inline-block;
+	margin:50px 600px 0px 600px;
+	padding: 20px;
+	border: 2px solid white;
+	border-radius: 20px;
+	width: 350px;
+	text-align:center;
+        
+}
+
+input, button, textarea{
+	padding: 2px;
+	height: 30px;
+	width: 300px;
+	border: 1.5px solid white;
+	border-radius: 5px;
+
+}
+
+button{
+	width: 200px;
+	height: 40px;
+	border:none;
+	color: black;
+	background-color: lightgrey;
+}
+
+button:hover{
+	background-color: white ;
+}
+
+.logo-img{
+	display: block;
+	height: 35px;
+	width: 100px;
+}
+#contact h2{
+        color:white;
+        
+}
+* {box-sizing: border-box;}
+.header-right {
+  float: right;
+}
+
+@media(max-width: 1170px) {
+   .header{
+      margin-top:100px;
+}
+   .dropdown{
+      float: none;
+      display: block;
+      text-align: left;
+      margin-left:100px;
+      top:0;
+      background-color:white;
+      color:red;
+      padding-bottom:-10px;
+
+    }
+   .dropdown:hover .dropbtn{
+      color:black;
+}
+#header-right{
+background-color:white;
+}
+#joinus{
+background-color:white;
+display:block;
+}
+   .dropdown-content{
+       overflow:visible;
+    }
+   #Img{
+       margin-top:300px;
+       z-index:200;
+   }
+   #addtocart{   
+         margin-right:170px;
+         display:inline-block;
+         
+   }
+   #signup{
+         margin-right:170px;
+         display:block;
+   }
+  
+  .header-right {
+    float: none;
+  }
+}
+
+@media(max-width:1150px){
+      #contact{
+         margin-left:300px;
+      }
+}
+@media(max-width:650px){
+      #contact{
+         margin-left:100px;
+      }
+}
